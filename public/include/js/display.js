@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // const localUrl = 'http://localhost:8080';
-    const localUrl = 'http://13.209.62.118:8080';
+    const localUrl = 'http://localhost:8080';
     const socket = io(localUrl);
     const did = document.getElementById('did');
     const backgroundBg = document.getElementById('bg');
