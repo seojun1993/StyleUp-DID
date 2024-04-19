@@ -1,0 +1,5 @@
+#imageContainer{position: relative; width: 100vw; height: 100vh; overflow: hidden;}
+#did{position:absolute; left:0; top:0; right:0; bottom:0; width:100%; display:block; transition: opacity 1.5s; z-index: 10;}
+#result{position: absolute; left:0; top:0; right:0; bottom:0; width:100%; display:block;}
+#bg{width: 100%; max-height: 2160px; display:block;}
+#dress{width: auto; position: absolute; left:50%; bottom:150px; transform: translateX(-50%);}
